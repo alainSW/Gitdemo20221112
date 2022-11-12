@@ -1,0 +1,5 @@
+file:///f%3A/eclipse-workspace-javascript/ProtractorTutorial/ProtractorUdemyTutorial/_has.js {"mtime":1659549523208,"size":117,"etag":"395si9lip3o","orphaned":false}
+ar hasOwnProperty = {}.hasOwnProperty;
+module.exports = function(it, key){
+  return hasOwnProperty.call(it, key);
+};
